@@ -1,3 +1,11 @@
+# package output
 build/
 dist/
 YarpTp.egg-info/
+
+# IDE and Editor metadata
+.vscode/
+
+# cache files and directories
+*.pyc
+Yarptp/__pycache__/*

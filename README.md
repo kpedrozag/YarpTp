@@ -1,23 +1,23 @@
-# YarpTp Python Module
+# Yarptp Python Module
 
-YarpTp es un módulo para Python construido para un fácil control de la plataforma robótica YarpTp. Con él, cualquiera podrá construir scripts que ejecuten movimientos del robot de forma fácil.
+Yarptp is a Python module for an easier controlling of Yarptp robot platform. With this module, you can build Python scripts for executing movements on Yarptp robot in a easy way.
 
-## Instalación
+## Instalation
 
-### Requerimientos
+### Requirements
 
-El módulo está diseñado para usarse sobre la plataforma robótica YarpTp cuyo controlador es una Raspberry Pi. Por lo tanto, el módulo sólo tendrá efecto si se usa en la arquitectura de una Raspberry Pi.
+The module is designed for controlling Yarptp, which operates with a Raspberry Pi 3 model B+, so it only works with this architecture.
 
-La librería requerida por el módulo es:
+For running the module, you may need:
 
- * RPi.GPIO (versión mínima 0.6.3) módulo de python para el control de los pines GPIO.
+ * RPi.GPIO >= 0.6.3.
 
-### Instalación
+### Instalation
 
-El paquete puede descargarse desde PyPi o usando el gestor de paquetes pip a través del comando:
+You can install the package with `pip` by running:
 
-  ``$ pip install YarpTp``
+  ``$ pip install Yarptp``
 
 ## Documentación
 
-Para mayor información, puede visitar la documentación alojada [aquí](https://documentacion-del-modulo-yarptp.readthedocs.io).
+Further information can be accesed [here](https://documentacion-del-modulo-yarptp.readthedocs.io).
