@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-from controllers import movement_controller as m_ctl
+from Yarptp.controllers import movement_controller as m_ctl
 
 class Yarptp:
     def __init__(self):

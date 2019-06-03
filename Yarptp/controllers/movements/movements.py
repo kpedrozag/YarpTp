@@ -1,4 +1,4 @@
-from configs import Configs
+from Yarptp.controllers.movements.configs import Configs
 from time import sleep as sleep_from_time
 
 

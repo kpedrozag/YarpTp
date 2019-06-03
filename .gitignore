@@ -8,9 +8,7 @@ YarpTp.egg-info/
 
 # cache files and directories
 *.pyc
-Yarptp/__pycache__
-Yarptp/RPi
-Yarptp/RPi/*
+__pycache__/
 
 # test files
 test*.py
