@@ -1,1 +1,1 @@
-from configs.private_methods import PrivateMethods as Configs
+from Yarptp.controllers.movements.configs.main import PrivateMethods as Configs

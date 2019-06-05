@@ -1,1 +1,1 @@
-from movements.movements import movement_controller
+from Yarptp.controllers.movements.main import movement_controller

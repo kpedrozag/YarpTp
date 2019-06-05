@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 from Yarptp.controllers import movement_controller as m_ctl
+from Yarptp.controllers import validate
 
 class Yarptp:
     def __init__(self):
@@ -34,7 +35,11 @@ class Yarptp:
         :param int in1: Código BCM del pin conectado a la entrada in1 del controlador L298N.
         :param int in2: Código BCM del pin conectado a la entrada in2 del controlador L298N.
         """
-        self.__enableA, self.__input1, self.__input2 = enA, in1, in2
+        is_not_valid, (
+            self.__enableA,
+            self.__input1, 
+            self.__input2
+        ) = validate(int_params=(enA, in1, in2))
         pin_list = (self.__enableA, self.__input1, self.__input2)        
         setLeftMotor = True
         self.__movements_ctl.enable_pins(pin_list, setLeftMotor)
